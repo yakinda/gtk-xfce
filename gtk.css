@@ -1,0 +1,24 @@
+#xfce4-power-manager-plugin image {
+-gtk-icon-transform: scale(0.54);
+}
+
+#pulseaudio-button image {
+-gtk-icon-transform: scale(0.54);
+}
+
+button { animation: none; } /*I don't want that ripple effect*/
+button, entry { border: none; margin: 1px; }
+
+#whiskermenu-button {
+	padding: 0px 2px;
+	border-radius: 4px;
+	margin-right: 4px
+}
+
+wnck-pager {
+    background-color: gray; 
+}
+
+wnck-pager:selected {
+    background-color: cyan; 
+}
